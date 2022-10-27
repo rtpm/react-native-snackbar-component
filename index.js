@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import {
   StyleSheet,
   Text,
   Animated,
-  Easing,
-  ViewPropTypes,
+  Easing
 } from 'react-native';
 import { Touchable } from './src';
 
