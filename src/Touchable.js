@@ -1,10 +1,10 @@
 import React from 'react';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types';
 import {
   View,
   TouchableOpacity,
-  TouchableNativeFeedback,
-  ViewPropTypes,
+  TouchableNativeFeedback
 } from 'react-native';
 import {
   IS_ANDROID,
